@@ -1,0 +1,12 @@
+data/
+ZkSync/data/
+data_arbitrum/
+data_optimism/
+parquet_data_arbitrum/
+parquet_data_optimism/
+results_backup/
+arbitrum_erc20_dumps/
+optimism_erc20_dumps/
+results/results/MACHINE_DUMP
+*.parquet
+.env
