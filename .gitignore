@@ -10,3 +10,5 @@ optimism_erc20_dumps/
 results/results/MACHINE_DUMP
 *.parquet
 .env
+arb_temp/
+parquet_temp/
