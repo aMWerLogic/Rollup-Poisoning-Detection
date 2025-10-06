@@ -1,6 +1,6 @@
 Steps to perform detection:
 
-1. Run get_rollup_data.py to download ERC-20 data from 3xpl (with token available for academic purposes), then extract tsv files with extract.py and then apply to_parquet.py to convert files into parquets.
+1. Run getData/get_rollup_data.py to download ERC-20 data from 3xpl (with token available for academic purposes), then extract tsv files with getData/extract.py and then apply getData/to_parquet.py to convert files into parquets.
 2. Use scrap_arb_tokens.py to obtain legitimate token list for a specified rollup (use proper etherscan endpoints and find appropriate date for web.archive.org). 
 3. Use extractPrices.py to obtain legitimate token prices for a specified date.
 4. Run main.py [rollup] to perform steps0 -> 5 of detection system.
